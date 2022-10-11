@@ -67,3 +67,8 @@ class Application
   # end
 
 end
+
+
+#http://localhost:9292/add?item=Pears
+#http://localhost:9292/cart
+#http://localhost:9292/add?item=Figs
