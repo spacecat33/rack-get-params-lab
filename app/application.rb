@@ -69,6 +69,7 @@ class Application
 end
 
 
+#http://localhost:9292/search?q=Apples #appears to be case sensitive e.g. apples vs Apples
 #http://localhost:9292/add?item=Pears
 #http://localhost:9292/cart
 #http://localhost:9292/add?item=Figs
