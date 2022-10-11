@@ -26,6 +26,7 @@ class Application
 
     elsif req.path.match(/add/)
       requested_item = req.params["item"]
+      
       ## OR can separate the 'add item' method i.e.
       # resp.write add_item_to_cart(item)
       #and remove the next 6 lines (if, else and end)
@@ -56,10 +57,10 @@ class Application
 
   ##BELOW IS SEPARATE METHOD IF DECIDE TO KEEP IT SEPARATE AS ABOVE IN COMMENTS.
   #
-  # def add_item_to_cart(item)
-  #   if @@items.include?(item)
-  #     @@cart << item
-  #     "added #{item}"
+  # def add_item_to_cart(requested_item)
+  #   if @@items.include?(requested_item)
+  #     @@cart << requested_item
+  #     "added #{requested_item}"
   #   else
   #     "We don't have that item"
   #   end
